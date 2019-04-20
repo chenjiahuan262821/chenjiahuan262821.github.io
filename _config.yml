@@ -124,6 +124,6 @@ theme: aircloud
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/chenjiahuan262821/chenjiahuan262821.github.com
+  repo: https://github.com/chenjiahuan262821/chenjiahuan262821.github.io
   branch: master
 
