@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="陈嘉欢的博客">
+    <meta name="keyword" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        学习Git最最基本的用法 - Joyce的博客 | Joyce&#39;s Blog
+        
+    </title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/aircloud.css">
+    <link rel="stylesheet" href="/css/gitment.css">
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> Lifelong Learner </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar">
+            <img src="/img/avatar.jpg">
+        </div>
+        <div class="name">
+            <i>Jiahuan Chen</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li>
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archive">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input">
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+        <div class="index-about-mobile">
+            <i> Lifelong Learner </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        学习Git最最基本的用法
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2019-04-19 23:01:54</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#编程" title="编程">编程</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+
+    </div>
+    <div class="post-content ">
+        <p>写在最前：</p>
+<p>最近，一边在准备CFA-Level1一边在学习python的编程（其实我大二学过哒！！），在唐亮哥哥的怂恿下，决定好好利用github，希望能够从一个小白变成厉害的人，相信practice makes perfect~找到廖雪峰的git教程，学习一下最最基本的用法——创建仓库repository、把文件添加到仓库里面、文件管理修改以及版本进退、远程仓库与克隆。</p>
+<hr>
+<p>安装git以后，在开始菜单找到git Bash, 进行基本的设置。按照教程的原话是，“因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。”</p>
+<pre><code>git config -h  #这是help的意思，看git config后面跟什么命令来实现目的
+git config -l  #这是list的意思，把配置的信息都列出来，包括上面提到的名字与Email地址
+</code></pre><p>上面主要是为了查看唐亮哥哥帮我设置过没有（然而没有），那么接下去进行设置，具体的代码是：</p>
+<pre><code>git config --global user.name &quot;MyName&quot; #设置username
+git config --global user.email&quot;email@exmaple.com&quot; #设置Email地址
+</code></pre><p><strong>1. 创建仓库repository</strong></p>
+<p>首先，选择一个合适的地方，创建一个空目录。教程原文有特别提醒“如果你使用Windows系统，为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）不包含中文。”（突然明白为何唐亮之前提醒我用来博客的文件夹和文件名都用英文命名了~）</p>
+<pre><code>mkdir LearnPy #创建一个空目录
+cd LeanPy #定位到这个目录
+pwd #显示当前路径是 e:/jadechen_blog/jadechen3.github.com/LearnPy
+</code></pre><p>其次，要把这个仓库LearnPy设置成可以通过git管理，输入下面这个就ok了：</p>
+<pre><code>git init
+</code></pre><p>然后LearnPy此时是一个当前路径下的一个空仓库，对应的还会有一个隐藏的.git目录（用ls -ah可以看见），这是git用于跟踪管理仓库的，不能手动修改里面的东西（那就让它一直隐藏着吧…）。</p>
+<p><strong>2. 把文件添加到repository里面</strong></p>
+<p>按照教程，编写一个readme.txt文件，放在LearnPy的目录下。随后，通过<strong>git add</strong>命令将文件添加到对应的仓库。此时，通过<strong>git commit</strong>将文件提交到仓库，跟-m”describe what you did”描述这次提交的内容或意图等说明情况。</p>
+<pre><code>git add readme.txt #把工作区里的一个或多个文件添加到暂存区，比如git add AA.py BB.md CC.txt
+git commit -m&quot;created a new repo and wrote a readme file&quot; #把暂存区的文件添加到repo并作说明以便追踪与管理
+</code></pre><p><strong>3. 文件管理修改以及版本进退</strong></p>
+<p>（1）修改文件与提交</p>
+<p>此时我对LearnPy目录下的readme文件进行更改，在内容中给它加上一个日期（Date:2019/04/20）。仓库中的文本文件发生变化，git是可以追踪的，通过<strong>git status</strong>我们可以看到仓库中文件的状态——是否被更改过、新版本是否已经上传。</p>
+<pre><code>git status #看到仓库中文件状态，告诉我们文件是否被修改与提交
+git diff readme.txt #对比文件前后查看哪儿发生了改动，也就是具体的修改内容
+
+git add readme.txt 
+git commit -m&quot;add date&quot; #确认无误后可以提交啦~
+</code></pre><p>（2）版本进退</p>
+<p>仓库中readme.txt有新旧两个版本了，但是我睡醒一觉就不太记得两个版本分别是什么样子。那么就可以向版本控制系统寻求帮助啦！</p>
+<pre><code>git log #返回仓库中每一个版本及提交日期，顺序由近至远，以提交时的description作为提示
+</code></pre><p>我们提交的每一个版本，git都会给它一个commit id，git知道现在是哪一个版本并把HEAD指针停留在那里，我们可以通过控制HEAD指向不同的版本id，实现版本的切换进退（原教程中的“时光机”）——上一个版本是HEAD^，上两个版本是HEAD^^,上100个版本是HEAD~100。用到的指令是<strong>git reset</strong>。</p>
+<pre><code>git reset --hard HEAD^ #退回到上一个版本了
+cat readme.txt #查看当前版本的内容，确认一下
+git log #会惊奇地发现新的版本不在日志里，仿佛从来没有存在过
+</code></pre><p>退回到上一个版本了，却发现还是新版本好，那就通过<strong>git reflog</strong>（它记录了我每一次的命令），找回新版本的commit id 然后HEAD指向那个id就好啦。</p>
+<pre><code>git reflog #显示我每一次的commit id，以提交的description作提示
+</code></pre><p>找到新版本”add date”的commit id是0d6fc77（输入前面几位就好），然后HEAD指向它。</p>
+<pre><code>git reset --hard 0d6f #这样就回到新版本
+</code></pre><p>（3）删除与还原文件</p>
+<p>现在LearnPy工作区与仓库里都有一个readme.txt文件，我想把它删除了。</p>
+<pre><code>rm readme.txt #在工作区里把文件删去了，此时工作区与仓库状态不一致
+git status #会告诉我test.txt被删除了。接下去，a)如果是误删可以还原，b)如果是真心想删除那就把仓库里也删去
+
+git checkout -- test.txt #a)注意是--并且文件名前有一个空格，这命令是用仓库里的版本替换工作区版本，无论工作区是修改还是删除，都可以替换或还原。
+
+git rm readme.txt #b)这就是把仓库里的文件也删去，那工作区与仓库都没有了这个文件
+</code></pre><hr>
+<p>小总结：</p>
+<p>1）提交工作区的文件，用<strong>git add</strong>与<strong>git commit</strong>两步。</p>
+<p>2）修改文件直接在工作区修改即可，通过<strong>git status</strong>查看是否发生改变但还没提交新版本，通过<strong>git diff</strong>查看具体改动的地方。</p>
+<p>3）返回之前的版本，通过<strong>git log</strong>查看版本顺序，通过<strong>git reset –hard HEAD^</strong>返回。</p>
+<p>4）返回之后的版本，通过<strong>git reflog</strong>查看每一次的commit id，通过<strong>git reset –hard [commit id]</strong>就可以回到之后的版本，同样可以通过这个方法回到之前的版本呢。</p>
+<p>5）工作区删除文件<strong>rm</strong>，仓库删除文件<strong>git rm</strong>。</p>
+<p>6）在工作区误删但仓库仍有，则可以通过<strong>git checkout – [file]</strong>还原到工作区。</p>
+<hr>
+<p><strong>4.远程仓库与克隆</strong></p>
+<p>（1）创建SSH key</p>
+<p>已注册GitHub账号，本地Git仓库和GitHub仓库之间的传输是通过SSH加密的~在新设备上要创建一个SSH key才能实现联系。</p>
+<pre><code>ssh-keygen -t rsa -C &quot;Email@example.com&quot; 
+</code></pre><p>输入上面代码，之后一路回车，完成后可以在”用户”主目录里找到.ssh目录，里面有id-rsa和id-rsa.pub两个文件，那么SSH Key创建完成。登陆GitHub，”Account settings”-&gt;”SSH Keys”，任意Title，在Key文本框里粘贴id_rsa.pub文件的内容，确认添加SSH Key就完成啦。</p>
+<p><em>Github允许添加多个Key，只要把每台电脑的Key都添加到Github就可以在那些电脑上git push了。</em></p>
+<p>（2）在Github上建远程仓库并与本地关联</p>
+<p>目标：目前在本地已经建立了一个LearnPy的仓库，想在GitHub创建一个备份仓库，两个仓库进行远程同步。</p>
+<p>做法：在github右上角create new repository，命名“LearnPy”，创建后github会提示“push an existing repository from the command line”的代码（如下），复制粘贴到git Bash中就好啦（此时git Bash的路径应该是本地的LearnPy文件夹）</p>
+<pre><code>git remote add origin https://github.com/[github帐户名]/LearnPy.git
+git push -u origin master #第一次推送到github要加-u
+</code></pre><p>在GitHub中LearnPy这个仓库里可以看到和本地一样的内容了~从此以往，只要本地工作区通过git add和git commit作了提交，就可以通过命令<strong>git push</strong>更新到github：</p>
+<pre><code>git push origin master
+</code></pre><p>（3）将远程仓库克隆到本地</p>
+<p>当前我在github上有一个远程仓库Hello-World，然而换了新电脑后本地是没有的，所以学习把它克隆到本地，用的命令是<strong>git clone</strong>。</p>
+<pre><code>git clone https://github.com/[github帐户名]/Hello-world.git
+</code></pre><p>由于没有返回上一级目录，运行完git clone的代码后在本地LearnPy文件夹里有一个Hello-World文件夹，所以要记住cd到合适的目录再克隆。</p>
+<hr>
+<p>小总结：</p>
+<p>1）创建SSH key，并添加到Github上实现关联</p>
+<p>2）把本地仓库备份到github，先在gihub上创建一个同名仓库，第一次需要在本地仓库目录下输入两行代码（github上创建后有提示），从此以后的更新只需<strong>git push</strong>就可以了。</p>
+<p>3）把远程仓库克隆到本地，先cd到合适的目录，使用<strong>git clone</strong>可以了。</p>
+<hr>
+<p>至此，这些基本功能应该能够满足我的需求了。</p>
+<p>要继续去学CFA了，接下去的日子一定要好好努力阿！</p>
+
+        
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+        <li>
+            <a target="_blank" href="https://github.com/Joyce Chen">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span>/</span>
+        
+        <span><a href="https://shinytang6.github.io">Liang.T</a></span>
+        <span>/</span>
+        
+        <span><a href="#">It helps SEO</a></span>
+        <span>/</span>
+        
+    </p>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        if( '' || '')
+        var disqus_config = function () {
+            this.page.url = '';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://airclouds-blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
+
+
+</html>
