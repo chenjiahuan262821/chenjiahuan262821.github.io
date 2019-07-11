@@ -65,12 +65,7 @@ tags: 编程
 
 #### Step1 原始数据是所有步骤的起点
 
-参考链接：
-
-+ [微信聊天记录导出指南（IOS）](https://zhuanlan.zhihu.com/p/48118211)
-+ [微信聊天记录如何导出(IOS与安卓)](https://www.zhihu.com/question/66251440/answer/402371940)
-
-导出微信中与指定联系人的聊天记录，这是一串及其复杂的操作。如果你有苹果手机或者一部root过的手机就会变得简单很多，详见上面链接。在微信聊天记录导出后，会有一个html文件，用IE浏览器打开网页文件，将网页另存为txt文件（默认utf-8编码就不要改动了）。至此，就得到了词云制作的原材料啦。
+导出微信中与指定联系人的聊天记录，这是一串及其复杂的操作。如果你有苹果手机或者一部root过的手机就会变得简单很多，详见最后链接。在微信聊天记录导出后，会有一个html文件，用IE浏览器打开网页文件，将网页另存为txt文件（默认utf-8编码就不要改动了）。至此，就得到了词云制作的原材料啦。
 
 #### Step2 读取文本文件并筛选出中文字符
 
@@ -156,7 +151,18 @@ jieba库中，lcut用法是在分词后返回一个词语的列表。随之，�
 
 ---
 
-最后想说：
+提供一些有用的链接：
+
++ [本文内容附代码链接（记得把路径改掉）](https://github.com/chenjiahuan262821/chenjiahuan262821.github.io/blob/source/source/_posts/wordcloud/wordCloud.py)
++ [微信聊天记录导出指南（IOS）](https://zhuanlan.zhihu.com/p/48118211)
++ [微信聊天记录如何导出(IOS与安卓)](https://www.zhihu.com/question/66251440/answer/402371940)
++ [wordcloud文件用whl来安装](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
++ [参考链接1：利用python做聊天记录词云分析](https://blog.csdn.net/lantxy2009/article/details/87527375)
++ [参考链接2：python词云实现](https://blog.csdn.net/qq_25819827/article/details/78991733)
+
+---
+
+写在最后：
 
 时间真的过的好快呀，1000天好像咻的一声就过去了。可是，1000天真的好少欸，才不到3年，10000天也好少，都不到28年……反正，我觉得不够。所以，接下去的日子还请唐总继续多多关照了！
 
