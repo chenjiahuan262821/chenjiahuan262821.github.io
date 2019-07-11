@@ -171,12 +171,7 @@
 <li>这是我们日程生活的缩影，透过词云我们可以可视化双方的“甜言蜜语”，复盘一下俺们小情侣的生活轨迹</li>
 <li>这是一次女方使用编程技术的锻炼经历，能够让男方收获自己指导和鼓励等付出的感动回报</li>
 </ul>
-<h3 id="步骤分解"><a href="#步骤分解" class="headerlink" title="步骤分解"></a>步骤分解</h3><h4 id="Step1-原始数据是所有步骤的起点"><a href="#Step1-原始数据是所有步骤的起点" class="headerlink" title="Step1 原始数据是所有步骤的起点"></a>Step1 原始数据是所有步骤的起点</h4><p>参考链接：</p>
-<ul>
-<li><a href="https://zhuanlan.zhihu.com/p/48118211" target="_blank" rel="noopener">微信聊天记录导出指南（IOS）</a></li>
-<li><a href="https://www.zhihu.com/question/66251440/answer/402371940" target="_blank" rel="noopener">微信聊天记录如何导出(IOS与安卓)</a></li>
-</ul>
-<p>导出微信中与指定联系人的聊天记录，这是一串及其复杂的操作。如果你有苹果手机或者一部root过的手机就会变得简单很多，详见上面链接。在微信聊天记录导出后，会有一个html文件，用IE浏览器打开网页文件，将网页另存为txt文件（默认utf-8编码就不要改动了）。至此，就得到了词云制作的原材料啦。</p>
+<h3 id="步骤分解"><a href="#步骤分解" class="headerlink" title="步骤分解"></a>步骤分解</h3><h4 id="Step1-原始数据是所有步骤的起点"><a href="#Step1-原始数据是所有步骤的起点" class="headerlink" title="Step1 原始数据是所有步骤的起点"></a>Step1 原始数据是所有步骤的起点</h4><p>导出微信中与指定联系人的聊天记录，这是一串及其复杂的操作。如果你有苹果手机或者一部root过的手机就会变得简单很多，详见最后链接。在微信聊天记录导出后，会有一个html文件，用IE浏览器打开网页文件，将网页另存为txt文件（默认utf-8编码就不要改动了）。至此，就得到了词云制作的原材料啦。</p>
 <h4 id="Step2-读取文本文件并筛选出中文字符"><a href="#Step2-读取文本文件并筛选出中文字符" class="headerlink" title="Step2 读取文本文件并筛选出中文字符"></a>Step2 读取文本文件并筛选出中文字符</h4><p>在python中读取文本文件，利用正则表达从读取的内容中提取中文字符。某种程度上算作一次数据清洗，因为从网页转化过来或者是微信图片、表情什么的，会产生大量没有意义的英文字符，我们的任务是要剔除掉它们。基于我们微信聊天主要是用中文，所以只需要保留中文即可。基于中文的编码范围是：\u4e00到\u9fa5，通过正则表达加findall函数可以返回中文文本的list。</p>
 <p>如下图，得到的“聊天内容查看页面”、“日期”、“点击隐藏”、“点击展开”等等，就是筛选出来的中文词语。</p>
 <div align="center">
@@ -229,7 +224,17 @@
 <p>话说，图中右上角还有个比较大的“喜欢”。那真的很高兴诶，原来我们彼此经常分享喜爱的事物和经历。</p>
 <p>谢谢唐先生，让我不再孤孤单单的，有个人说说话的感觉，我真的好喜欢呀！！！（“喜欢”频次+1）</p>
 <hr>
-<p>最后想说：</p>
+<p>提供一些有用的链接：</p>
+<ul>
+<li><a href="https://github.com/chenjiahuan262821/chenjiahuan262821.github.io/blob/source/source/_posts/wordcloud/wordCloud.py" target="_blank" rel="noopener">本文内容附代码链接（记得把路径改掉）</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/48118211" target="_blank" rel="noopener">微信聊天记录导出指南（IOS）</a></li>
+<li><a href="https://www.zhihu.com/question/66251440/answer/402371940" target="_blank" rel="noopener">微信聊天记录如何导出(IOS与安卓)</a></li>
+<li><a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank" rel="noopener">wordcloud文件用whl来安装</a></li>
+<li><a href="https://blog.csdn.net/lantxy2009/article/details/87527375" target="_blank" rel="noopener">参考链接1：利用python做聊天记录词云分析</a></li>
+<li><a href="https://blog.csdn.net/qq_25819827/article/details/78991733" target="_blank" rel="noopener">参考链接2：python词云实现</a></li>
+</ul>
+<hr>
+<p>写在最后：</p>
 <p>时间真的过的好快呀，1000天好像咻的一声就过去了。可是，1000天真的好少欸，才不到3年，10000天也好少，都不到28年……反正，我觉得不够。所以，接下去的日子还请唐总继续多多关照了！</p>
 </div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
         
