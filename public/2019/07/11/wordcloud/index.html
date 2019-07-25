@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="陈嘉欢的博客">
+    <meta name="keyword" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        1000天纪念日：做浪漫词云送程序猿男友 - Joyce的博客 | Joyce&#39;s Blog
+        
+    </title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/aircloud.css">
+    <link rel="stylesheet" href="/css/gitment.css">
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> Lifelong Learner </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar">
+            <img src="/img/avatar.jpg">
+        </div>
+        <div class="name">
+            <i>Jiahuan Chen</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li>
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archive">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#写在最前：今天，大日子啊"><span class="toc-text">写在最前：今天，大日子啊</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#用我们的wechat聊天记录——制作词云"><span class="toc-text">用我们的wechat聊天记录——制作词云</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#原材料"><span class="toc-text">原材料</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#制作目标"><span class="toc-text">制作目标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#制作意义"><span class="toc-text">制作意义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#步骤分解"><span class="toc-text">步骤分解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Step1-原始数据是所有步骤的起点"><span class="toc-text">Step1 原始数据是所有步骤的起点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Step2-读取文本文件并筛选出中文字符"><span class="toc-text">Step2 读取文本文件并筛选出中文字符</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Step3-调用jieba进行分词"><span class="toc-text">Step3 调用jieba进行分词</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Step4-去除停用词"><span class="toc-text">Step4 去除停用词</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Step5-统计词语出现的频次"><span class="toc-text">Step5 统计词语出现的频次</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Step6-调用wordcloud进行作图"><span class="toc-text">Step6 调用wordcloud进行作图</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#看图说话"><span class="toc-text">看图说话</span></a></li></ol></li></ol></li></ol>
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input">
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+        <div class="index-about-mobile">
+            <i> Lifelong Learner </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        1000天纪念日：做浪漫词云送程序猿男友
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2019-07-11 19:52:52</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#编程" title="编程">编程</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+
+    </div>
+    <div class="post-content ">
+        <h2 id="写在最前：今天，大日子啊"><a href="#写在最前：今天，大日子啊" class="headerlink" title="写在最前：今天，大日子啊"></a>写在最前：今天，大日子啊</h2><p>今天，是与男朋友相爱1000天的大日子！</p>
+<p>但是，今天，也是我们异地开始的第一天（假装此处哭唧唧）……</p>
+<p>谁能相信，在昨天我们999天纪念日这个寓意长长久久的日子，一张高铁票，把他载去了帝都！！！</p>
+<p>虹桥高铁站的拥抱，成为我们999天纪念日的特殊回忆。</p>
+<div align="center">
+
+<p><img src="/2019/07/11/wordcloud/pic_1000days.jpg"></p>
+<div align="left">
+
+<p>刚才问了下，今天入职的他已经开始了社畜的加班生涯了，估计没有给我准备礼物（面无表情.jpg）。Anyway，反正可以等他领到工资再好好算账（奸笑.jpg）。</p>
+<p>最近我心里烦闷着——想好好学编程，学习量化交易，无奈技能值太弱与没有实习加强，这二者形成强有力的恶性循环，给我带来了不少烦恼。但是，人嘛，总是要向前（钱）看的，为了以后能够找到好工作，多赚钱养好自己，不能因为烦恼而停下来，而要多了解、做规划，也不要放弃自己想做的事情。冲鸭！</p>
+<hr>
+<p>两年前的暑假，我准备去加拿大麦吉尔交换一学期，临近启程的日期恰是我最爱的七夕，他凭借程序猿的技能做了一个很漂亮的网页，以计时器的方式记录我们相爱的时间（其实刚发现网上论坛有模板欸）。那天，他是在我们互道晚安后发给我的，第二天我一大早点开的时候，演绎了一次流下真挚且感动的泪水，对他的喜爱程度上升到全新的高度。我记得很清楚，背景音乐是宋冬野的《安和桥》，在后续的日子里，每当我听到这首歌的旋律，我都会想起他，想起那个清晨，想紧紧抱住他。</p>
+<p>在他去北京前，他注视我，突然哼起“让我再看你一眼，从南到北”。仅凭这旋律，我们都想起来之前那个网页。他突然说，“你应该给我做一个，这次我要走了”。我：？？？（少年，你怎么能有这么危险的想法！！）</p>
+<p>其实，我内心是有过这个想法的……（可是后来毕业典礼后忙着整理照片就忘了嘿）</p>
+<p>于是，在虹桥高铁站送别后，我怀着不悲不喜的心情，回到略有冷清的宿舍，打开电脑，潜心专注，开始……</p>
+<blockquote>
+<h2 id="用我们的wechat聊天记录——制作词云"><a href="#用我们的wechat聊天记录——制作词云" class="headerlink" title="用我们的wechat聊天记录——制作词云"></a>用我们的wechat聊天记录——制作词云</h2></blockquote>
+<div align="center">
+
+<p><img src="/2019/07/11/wordcloud/love1.jpg"></p>
+<div align="left">
+
+<h3 id="原材料"><a href="#原材料" class="headerlink" title="原材料"></a>原材料</h3><p>电脑，微信，导出聊天记录的软件，python及必要的库（maybe加一个，已root手机）</p>
+<h3 id="制作目标"><a href="#制作目标" class="headerlink" title="制作目标"></a>制作目标</h3><p>制作词云，如下图所示</p>
+<div align="center">
+
+<p><img src="/2019/07/11/wordcloud/wordcloud_eg.jpg"></p>
+<div align="left">
+
+<h3 id="制作意义"><a href="#制作意义" class="headerlink" title="制作意义"></a>制作意义</h3><ul>
+<li>这是我们日程生活的缩影，透过词云我们可以可视化双方的“甜言蜜语”，复盘一下俺们小情侣的生活轨迹</li>
+<li>这是一次女方使用编程技术的锻炼经历，能够让男方收获自己指导和鼓励等付出的感动回报</li>
+</ul>
+<h3 id="步骤分解"><a href="#步骤分解" class="headerlink" title="步骤分解"></a>步骤分解</h3><h4 id="Step1-原始数据是所有步骤的起点"><a href="#Step1-原始数据是所有步骤的起点" class="headerlink" title="Step1 原始数据是所有步骤的起点"></a>Step1 原始数据是所有步骤的起点</h4><p>导出微信中与指定联系人的聊天记录，这是一串及其复杂的操作。如果你有苹果手机或者一部root过的手机就会变得简单很多，详见最后链接。在微信聊天记录导出后，会有一个html文件，用IE浏览器打开网页文件，将网页另存为txt文件（默认utf-8编码就不要改动了）。至此，就得到了词云制作的原材料啦。</p>
+<h4 id="Step2-读取文本文件并筛选出中文字符"><a href="#Step2-读取文本文件并筛选出中文字符" class="headerlink" title="Step2 读取文本文件并筛选出中文字符"></a>Step2 读取文本文件并筛选出中文字符</h4><p>在python中读取文本文件，利用正则表达从读取的内容中提取中文字符。某种程度上算作一次数据清洗，因为从网页转化过来或者是微信图片、表情什么的，会产生大量没有意义的英文字符，我们的任务是要剔除掉它们。基于我们微信聊天主要是用中文，所以只需要保留中文即可。基于中文的编码范围是：\u4e00到\u9fa5，通过正则表达加findall函数可以返回中文文本的list。</p>
+<p>如下图，得到的“聊天内容查看页面”、“日期”、“点击隐藏”、“点击展开”等等，就是筛选出来的中文词语。</p>
+<div align="center">
+
+<p><img src="/2019/07/11/wordcloud/procedure1.jpg"></p>
+<div align="left">
+
+<p>但是jieba主要是针对字符对象进行操作，上述返回的list并不方便。所以，我在这里使用reduce函数，将所有得到的list的内容（就是很多很多中文字符）重新拼接在一起，方便后续利用jieba进行分词。</p>
+<h4 id="Step3-调用jieba进行分词"><a href="#Step3-调用jieba进行分词" class="headerlink" title="Step3 调用jieba进行分词"></a>Step3 调用jieba进行分词</h4><p>jieba库中，lcut用法是在分词后返回一个词语的列表。随之，我们将分词后的list，转化成一个dataframe的形式，这样可以方便稍后的筛选（pd.dataframe进行筛选十分便利）。至于为什么又要筛选捏，因为，像下面“聊天”、“内容”、“查看”、“日期”这种分词后的内容，可是这明显就是聊天记录的模板文字嘛，也就是说这不是聊天内容，不应出现在我的词云里。所以下面一个步骤，就是引入停用词（不想要的词语），将这些词语从dataframe中剔除。</p>
+<div align="center">
+
+<p><img src="/2019/07/11/wordcloud/procedure2.jpg"></p>
+<div align="left">
+
+<h4 id="Step4-去除停用词"><a href="#Step4-去除停用词" class="headerlink" title="Step4 去除停用词"></a>Step4 去除停用词</h4><p>这个步骤，目标是要去掉一些常见停用词以及其他无意义的词语，比如：的，吗，呢，还有聊天记录文本里昵称、图片、语音提示等等。</p>
+<p>我已经将这些词整理好，放在一个stopword的txt文件里，注意这个自建的txt文件编码不是utf-8了，而是gb18030。将这个文件读入生成一列名为stopword，然后就是要将步骤3的dataframe中包含这些词的行去掉。利用~取反与isin搭配（学到新技巧了！！），筛选出不包含stopword的行。至此，数据清理完成啦，剩下的都是有用的关键词啦，存放在途中words_df_new这个dataframe里。</p>
+<div align="center">
+
+<p><img src="/2019/07/11/wordcloud/procedure3.jpg"></p>
+<div align="left">
+
+<h4 id="Step5-统计词语出现的频次"><a href="#Step5-统计词语出现的频次" class="headerlink" title="Step5 统计词语出现的频次"></a>Step5 统计词语出现的频次</h4><p>在文本内容清洗过后，这一步进行数据统计，将样本以词语进行分组（groupby），统计每一个词语出现的频次（agg、np.size），然后排序看一下。</p>
+<div align="center">
+
+<p><img src="/2019/07/11/wordcloud/procedure4.jpg"></p>
+<div align="left">
+
+<h4 id="Step6-调用wordcloud进行作图"><a href="#Step6-调用wordcloud进行作图" class="headerlink" title="Step6 调用wordcloud进行作图"></a>Step6 调用wordcloud进行作图</h4><p>将上面得到的词语与频次数据建成字典，以词语为key，频次为value（下面worldcloud会用到，因为词语的频次决定其在图中显示的大小）。通过上述的步骤，如今，数据已经完全准备好了。</p>
+<p>作图方面，选定一张好看的图片（这里选了红色的心形——爱你的形状！！）勾勒词云形状，利用wordcloud库对词云图进行设定，比如背景颜色、字体颜色、字体等等（具体设定蛮多的，但是有一些默认的就已经蛮好啦）。图中通过fit_words(dict[‘frequency’])，基于上述字典中频次决定词语字体大小。</p>
+<p>最后就是图片的展示啦~</p>
+<div align="center">
+
+<p><img src="/2019/07/11/wordcloud/procedure5.jpg"></p>
+<div align="left">
+
+
+<h4 id="看图说话"><a href="#看图说话" class="headerlink" title="看图说话"></a>看图说话</h4><p>通过这幅图，我们看到小两口之间的对话有这些关键词:</p>
+<ul>
+<li><strong>学习</strong>（竟恰好随机出现在心形的最中间），仿佛在告诉世人，我们甜甜蜜蜜但丝毫不影响互相督促学习。多么励志的一对情侣啊！！</li>
+<li><strong>嘤</strong>，两个嘤嘤怪……每次撒娇打“嘤嘤嘤”，一次性增加3个频次，所以“嘤嘤嘤”的“嘤”格外大。</li>
+<li><strong>想</strong>，想你，我想干嘛，你想不想，噢，这么美好的一个词，配得上这美好的恋爱（害羞.jpg）</li>
+<li><strong>安安</strong>，嘿嘿嘿（睡前小甜蜜）</li>
+<li><strong>嗷</strong>，两个人都一把年纪了，总发出一些这么可爱的声音干什么！！</li>
+<li><strong>傻</strong>，听说小情侣之间总喜欢说对方“傻猪猪”什么的很可爱的昵称，但是我坚信，这词云里“傻”是和“逼”一起的，虽然被jieba拆开了，但仔细一看，会发现，它们，一样， 大！！！！！（哼）</li>
+<li><strong>吃</strong>，两个吃货，出现这个词我和他都需要承担责任（严肃脸）</li>
+<li><strong>买</strong>，emmm，这个，估计是我啦，突然发现自己要说出“我买了XXX”、“你去给我买XXX”、“我要买XXX”，真的很顺口耶！！！</li>
+</ul>
+<p>所以，我们的生活缩影在一天里，就是：<strong>学习、吃、买、傻逼、安安，再加点嘤嘤嘤和嗷嗷嗷跟对方撒撒娇</strong>。</p>
+<p>我们的生活，可爱且美好。</p>
+<p>话说，图中右上角还有个比较大的“喜欢”。那真的很高兴诶，原来我们彼此经常分享喜爱的事物和经历。</p>
+<p>谢谢唐先生，让我不再孤孤单单的，有个人说说话的感觉，我真的好喜欢呀！！！（“喜欢”频次+1）</p>
+<hr>
+<p>提供一些有用的链接：</p>
+<ul>
+<li><a href="https://github.com/chenjiahuan262821/chenjiahuan262821.github.io/blob/source/source/_posts/wordcloud/wordCloud.py" target="_blank" rel="noopener">本文内容附代码链接（记得把路径改掉）</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/48118211" target="_blank" rel="noopener">微信聊天记录导出指南（IOS）</a></li>
+<li><a href="https://www.zhihu.com/question/66251440/answer/402371940" target="_blank" rel="noopener">微信聊天记录如何导出(IOS与安卓)</a></li>
+<li><a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank" rel="noopener">wordcloud文件用whl来安装</a></li>
+<li><a href="https://blog.csdn.net/lantxy2009/article/details/87527375" target="_blank" rel="noopener">参考链接1：利用python做聊天记录词云分析</a></li>
+<li><a href="https://blog.csdn.net/qq_25819827/article/details/78991733" target="_blank" rel="noopener">参考链接2：python词云实现</a></li>
+</ul>
+<hr>
+<p>写在最后：</p>
+<p>时间真的过的好快呀，1000天好像咻的一声就过去了。可是，1000天真的好少欸，才不到3年，10000天也好少，都不到28年……反正，我觉得不够。所以，接下去的日子还请唐总继续多多关照了！</p>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+        
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+        <li>
+            <a target="_blank" href="https://github.com/Joyce Chen">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span>/</span>
+        
+        <span><a href="https://shinytang6.github.io">Liang.T</a></span>
+        <span>/</span>
+        
+        <span><a href="#">It helps SEO</a></span>
+        <span>/</span>
+        
+    </p>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        if( '' || '')
+        var disqus_config = function () {
+            this.page.url = '';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://airclouds-blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
+
+
+</html>
