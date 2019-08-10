@@ -108,7 +108,7 @@ tags: 金融观察
 
 <div align=center>
 
-<img src="intern-review1/big_ibd.jpg">
+<img src="intern-review1/big_IBD.jpg">
 
 <div align=left>
 
@@ -132,7 +132,7 @@ tags: 金融观察
 
 <div align=center>
 
-<img src="intern-review1/cicc.jpg">
+<img src="intern-review1/CICC.jpg">
 
 <div align=left>
 
@@ -142,7 +142,7 @@ tags: 金融观察
 
 <div align=center>
 
-<img src="intern-review1/zhongxin.jpg">
+<img src="intern-review1/Zhongxin.jpg">
 
 <div align=left>
 
