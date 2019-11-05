@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="陈嘉欢的博客">
+    <meta name="keyword" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        Linux基础操作 - Joyce的博客 | Joyce&#39;s Blog
+        
+    </title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/aircloud.css">
+    <link rel="stylesheet" href="/css/gitment.css">
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> Lifelong Learner </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar">
+            <img src="/img/avatar.jpg">
+        </div>
+        <div class="name">
+            <i>Jiahuan Chen</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li>
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archive">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Linux基础操作"><span class="toc-text">Linux基础操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#常见文件、目录操作命令"><span class="toc-text">常见文件、目录操作命令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#linux最基础目录与文件操作的命令（使用得最多的命令）"><span class="toc-text">linux最基础目录与文件操作的命令（使用得最多的命令）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#文件打包与压缩命令"><span class="toc-text">文件打包与压缩命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#查找一个文本文件下的某些字符"><span class="toc-text">查找一个文本文件下的某些字符</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vim基本操作"><span class="toc-text">vim基本操作</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#从normal模式进入insert模式："><span class="toc-text">从normal模式进入insert模式：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#在insert模式下："><span class="toc-text">在insert模式下：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#从normal模式进入command模式："><span class="toc-text">从normal模式进入command模式：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#在command模式下的查询："><span class="toc-text">在command模式下的查询：</span></a></li></ol></li></ol></li></ol>
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input">
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+        <div class="index-about-mobile">
+            <i> Lifelong Learner </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        Linux基础操作
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2019-07-05 20:18:27</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#编程" title="编程">编程</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+
+    </div>
+    <div class="post-content ">
+        <h1 id="Linux基础操作"><a href="#Linux基础操作" class="headerlink" title="Linux基础操作"></a>Linux基础操作</h1><p>Linux是<strong>多用户的网络系统</strong>，我们可以在Linux下创建多个用户，每个用户都会有自己专属的空间。在创建用户时，系统管理员会给每个用户建立一个主目录，通常在/home/目录下，比如：用户joyce的主目录为：/home/joyce。用户对自己主目录的文件拥有所有权，可以在自己的主目录下进行相关操作。</p>
+<p>linux的优点：免费；开源；很多软件原生是在linux下运行的，庞大社区支持，生态环境好</p>
+<p>linux的组成：linux内核，用户和内核交互的接口shell，文件系统（ext3、ext4），第三方应用软件</p>
+<p>命令基本格式： cmd [options] [arguments]。Linux命令格式包含三个部分，分别是：命令、选项、参数，options称为选项，arguments称为参数</p>
+<p>注意，linux区分大小写；一般来说，options如果是单字符则在前加一个减号-，如果是单词则在前加两个减号–（如-a和–all）。</p>
+<p>常见通配符：</p>
+<ul>
+<li>*：匹配任何字符和任何数目的字符</li>
+<li>?：匹配单一数码的任何字符</li>
+<li>[]：匹配[]之内的任意一个字符</li>
+<li>[!]：匹配除了括号里面内容以外的任意字符</li>
+</ul>
+<h2 id="常见文件、目录操作命令"><a href="#常见文件、目录操作命令" class="headerlink" title="常见文件、目录操作命令"></a>常见文件、目录操作命令</h2><h3 id="linux最基础目录与文件操作的命令（使用得最多的命令）"><a href="#linux最基础目录与文件操作的命令（使用得最多的命令）" class="headerlink" title="linux最基础目录与文件操作的命令（使用得最多的命令）"></a>linux最基础目录与文件操作的命令（使用得最多的命令）</h3><p>输入命令的时候要常用<strong>tab</strong>键来补全，想要之前输入过的命令可以用键盘上下箭头进行搜索</p>
+<ul>
+<li>pwd 查看当前目录</li>
+<li>cd 后面跟路径来切换目录</li>
+<li>ps 查看当前进程的工具，ps -ef查看当前进程（会列出进程号），kill -9 进程号 就杀掉对应的进程</li>
+<li>. 表示当前目录</li>
+<li>.. 表示当前目录的上一级目录</li>
+<li><ul>
+<li>表示切换目录前所在的目录</li>
+</ul>
+</li>
+<li>~ 表示用户主目录的绝对路径名</li>
+</ul>
+<blockquote>
+<p>下面的命令其实和windows下的操作类似，无非是新建文件夹（mkdir）、新建文件（touch）、复制文件夹或文件（cp）、移动文件夹或目录（mv）、删除目录或文件夹（rm）、查找文件（find）、查看文件类型（ls或ll或file或stat）、查看文件内容（cat）、压缩文件（gzip、bzip2、tar）、解压文件（gzip -d等）、查找字符（grep+正则表达）</p>
+</blockquote>
+<ul>
+<li>mkdir 在当前目录下创建一个空目录</li>
+<li>rmdir 要求目录为空</li>
+<li>touch 生成一个空文件(touch newfilename)或更改文件三种时间</li>
+<li>cp 复制文件或路径，如cp joyce.txt ../newnew/ 是将joyce.txt文件从当前路径复制一份到newnew文件夹里</li>
+<li>mv 移动文件或路径，如mv test.txt ../newnew/ 是将test.txt文件从当前路径移动到newnew文件夹里</li>
+<li>rm 删除文件或路径，如rm test.txt （注意rm需要谨慎使用，尤其 rm -rf XXX文件夹要格外谨慎）</li>
+<li>ls 显示文件或目录信息</li>
+<li>find 查找文件，find+目录+条件+条件值，如find . -name “*.txt”就是查找当前目录及子目录下以txt结尾的文件</li>
+<li>file 查看文件类型</li>
+<li>stat 文件属性信息</li>
+<li>cat 查看文本文件内容</li>
+<li>more 可以分页查看</li>
+<li>tail -10 查看文件尾部的10行</li>
+<li>head -20 查看文件头部的20行</li>
+<li>echo 把内容重定向到指定的文件中，有则打开，无则创建；其中&gt;是覆盖模式，&gt;&gt;是追加模式</li>
+</ul>
+<h3 id="文件打包与压缩命令"><a href="#文件打包与压缩命令" class="headerlink" title="文件打包与压缩命令"></a>文件打包与压缩命令</h3><p>常用的压缩命令：</p>
+<ul>
+<li>gzip filename</li>
+<li>bzip2 filename</li>
+<li>tar -czvf filename</li>
+</ul>
+<p>常用的解压命令：</p>
+<ul>
+<li>gzip -d filename.gz</li>
+<li>bzip2 -d filename.bz2</li>
+<li>tar -xzvf filename.tar.gz</li>
+</ul>
+<h3 id="查找一个文本文件下的某些字符"><a href="#查找一个文本文件下的某些字符" class="headerlink" title="查找一个文本文件下的某些字符"></a>查找一个文本文件下的某些字符</h3><p>用 grep+正则表达式 替代 ctrl+F</p>
+<p><strong>常见的正则表达式</strong></p>
+<ul>
+<li>^x 是以x开头的字符串</li>
+<li>x$ 是以x结束的字符串</li>
+<li>. 匹配任意一个字符，l..e 对应love、live、lone等等</li>
+<li>? 匹配任意一个可选字符，xy? 对应x,xy</li>
+<li><ul>
+<li>匹配零次或多次，xy* 对应 x,xy,xyy,xyyyy等等</li>
+</ul>
+</li>
+<li><ul>
+<li>匹配一次或多次，xy+ 对应 xy,xyy,xyyy,xyyyy等等</li>
+</ul>
+</li>
+<li>[…] 匹配任意一个字符，[xyz]对应x,y,z</li>
+<li>()对正则表达式分组，(xy)+对应xy,xyxy,xyxyxy等等</li>
+<li>{n}匹配n次，go{2}gle对应google</li>
+<li>{n,}匹配最少n次，go{2,}对应google,gooogle,goooole,gooooogle等等</li>
+<li>{n,m}匹配n到m次，go{2,4}gle对应google,gooogle,goooole</li>
+<li>| 或，如good|bon对应good或bon</li>
+<li>\转义字符，如\^对应^</li>
+</ul>
+<p><strong>grep可以使用正则表达式搜索文本，并把匹配的行打印出来</strong></p>
+<p>grep [option] PATTERN [FILE…]</p>
+<p>注意：PATTERN 是查找条件，可以是普通字符串、可以是正则表达式；FILE 是要查找的文件，可以是用空格间隔的多个文件，也可是使用Shell的通配符在多个文件中查找PATTERN</p>
+<p>示例：</p>
+<ul>
+<li>显示 myfile 中第一个字符为字母的所有行，grep ‘^[a-zA-Z]’ myfile</li>
+<li>在文件 myfile 中查找包含字符串mystr在第几行，grep -n mystr myfile</li>
+<li>在某一目录下循环搜索所有文件是否包含字符，grep -r mystr ./</li>
+<li><p>列出/etc目录（包括子目录）下所有文件内容中包含字符串“root”的文件名，grep -lr mystr ./</p>
+</li>
+<li><p>也可以配合管道|一起使用，如：cat test.txt | grep cjh; ps -ef | grep python</p>
+</li>
+</ul>
+<h2 id="vim基本操作"><a href="#vim基本操作" class="headerlink" title="vim基本操作"></a>vim基本操作</h2><p>vim filename后进入normal模式，常用的模式是insert模式和command模式。</p>
+<h4 id="从normal模式进入insert模式："><a href="#从normal模式进入insert模式：" class="headerlink" title="从normal模式进入insert模式："></a>从normal模式进入insert模式：</h4><ul>
+<li>i 在当前字符前插入</li>
+<li>a 在当前字符后插入</li>
+<li>o 在当前行的下一行插入新的一行</li>
+</ul>
+<blockquote>
+<p>插入模式下可以进行文本编辑，通过输入i或a或o可以进入插入模式，相当于在文本编辑器进行文本编辑，该换行换行，该删除删除，之后<strong>通过esc键退出插入模式（返回到normal模式）</strong>。如果要保存修改，需要进入命令行模式，:w进行保存，或者:wq保存并退出。</p>
+</blockquote>
+<h4 id="在insert模式下："><a href="#在insert模式下：" class="headerlink" title="在insert模式下："></a>在insert模式下：</h4><p>normal模式下，h、j、k、l相当于上下左右的光标移动；insert模式下，通过键盘的上下左右键实现上下左右的光标移动。</p>
+<p>和直接文本编辑没有什么区别</p>
+<p>ctrl + h 删除上一个输入的字符<br>ctrl + w 删除上一个输入的单词<br>ctrl + u 删除当前行</p>
+<h4 id="从normal模式进入command模式："><a href="#从normal模式进入command模式：" class="headerlink" title="从normal模式进入command模式："></a>从normal模式进入command模式：</h4><p>:w 保存<br>:q 退出（:q!是不保存-强制退出）<br>:vs 垂直分屏<br>:sp 水平分屏</p>
+<p>在分屏以后，如果要切换窗口，需要退出到normal模式：</p>
+<p><ctrl-w>h 切换到左边的窗口</ctrl-w></p>
+<p><ctrl-w>j 切换到下边的窗口</ctrl-w></p>
+<p><ctrl-w>k 切换到上边的窗口</ctrl-w></p>
+<p><ctrl-w>l 切换到右边的窗口</ctrl-w></p>
+<h4 id="在command模式下的查询："><a href="#在command模式下的查询：" class="headerlink" title="在command模式下的查询："></a>在command模式下的查询：</h4><p>使用/或者?进行前向或者反向搜索，比如/cjh<br>使用n/N跳转到下一个或者上一个匹配</p>
+
+        
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+        <li>
+            <a target="_blank" href="https://github.com/Joyce Chen">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span>/</span>
+        
+        <span><a href="https://shinytang6.github.io">Liang.T</a></span>
+        <span>/</span>
+        
+        <span><a href="#">It helps SEO</a></span>
+        <span>/</span>
+        
+    </p>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        if( '' || '')
+        var disqus_config = function () {
+            this.page.url = '';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://airclouds-blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
+
+
+</html>
