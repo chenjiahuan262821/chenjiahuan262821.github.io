@@ -1,4 +1,4 @@
-/*varibles*/
+﻿/*varibles*/
 * {
   font-family: "italic", Helvetica, Arial, "Heiti SC", "Microsoft YaHei";
 }
@@ -663,7 +663,7 @@ body {
   padding: 10px;
 }
 .post-content pre code {
-  color: white;
+  color: black;
   line-height: 175%;
 }
 .post-content h1 {
@@ -926,7 +926,7 @@ code {
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #555;
+  color: #4d4d4c;
   background: #eee;
   border-radius: 3px;
   font-size: 13px;
