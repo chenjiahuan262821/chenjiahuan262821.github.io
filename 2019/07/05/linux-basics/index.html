@@ -215,16 +215,19 @@
 <li>{n,}匹配最少n次，go{2,}对应google,gooogle,goooole,gooooogle等等</li>
 <li>{n,m}匹配n到m次，go{2,4}gle对应google,gooogle,goooole</li>
 <li>| 或，如good|bon对应good或bon</li>
-<li>\转义字符，如\^对应^</li>
+<li>\转义字符，如^对应^</li>
 </ul>
 <p><strong>grep可以使用正则表达式搜索文本，并把匹配的行打印出来</strong></p>
 <p>grep [option] PATTERN [FILE…]</p>
 <p>注意：PATTERN 是查找条件，可以是普通字符串、可以是正则表达式；FILE 是要查找的文件，可以是用空格间隔的多个文件，也可是使用Shell的通配符在多个文件中查找PATTERN</p>
 <p>示例：</p>
 <ul>
-<li>显示 myfile 中第一个字符为字母的所有行，grep ‘^[a-zA-Z]’ myfile</li>
-<li>在文件 myfile 中查找包含字符串mystr在第几行，grep -n mystr myfile</li>
-<li>在某一目录下循环搜索所有文件是否包含字符，grep -r mystr ./</li>
+<li><p>显示 myfile 中第一个字符为字母的所有行，grep ‘^[a-zA-Z]’ myfile</p>
+</li>
+<li><p>在文件 myfile 中查找包含字符串mystr在第几行，grep -n mystr myfile</p>
+</li>
+<li><p>在某一目录下循环搜索所有文件是否包含字符，grep -r mystr ./</p>
+</li>
 <li><p>列出/etc目录（包括子目录）下所有文件内容中包含字符串“root”的文件名，grep -lr mystr ./</p>
 </li>
 <li><p>也可以配合管道|一起使用，如：cat test.txt | grep cjh; ps -ef | grep python</p>
@@ -244,10 +247,7 @@
 <p>ctrl + h 删除上一个输入的字符<br>ctrl + w 删除上一个输入的单词<br>ctrl + u 删除当前行</p>
 <h4 id="从normal模式进入command模式："><a href="#从normal模式进入command模式：" class="headerlink" title="从normal模式进入command模式："></a>从normal模式进入command模式：</h4><p>:w 保存<br>:q 退出（:q!是不保存-强制退出）<br>:vs 垂直分屏<br>:sp 水平分屏</p>
 <p>在分屏以后，如果要切换窗口，需要退出到normal模式：</p>
-<p><ctrl-w>h 切换到左边的窗口</ctrl-w></p>
-<p><ctrl-w>j 切换到下边的窗口</ctrl-w></p>
-<p><ctrl-w>k 切换到上边的窗口</ctrl-w></p>
-<p><ctrl-w>l 切换到右边的窗口</ctrl-w></p>
+<p><ctrl-w>h 切换到左边的窗口<br><ctrl-w>j 切换到下边的窗口<br><ctrl-w>k 切换到上边的窗口<br><ctrl-w>l 切换到右边的窗口</ctrl-w></ctrl-w></ctrl-w></ctrl-w></p>
 <h4 id="在command模式下的查询："><a href="#在command模式下的查询：" class="headerlink" title="在command模式下的查询："></a>在command模式下的查询：</h4><p>使用/或者?进行前向或者反向搜索，比如/cjh<br>使用n/N跳转到下一个或者上一个匹配</p>
 
         

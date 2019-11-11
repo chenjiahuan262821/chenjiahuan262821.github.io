@@ -143,7 +143,8 @@
 <p>虹桥高铁站的拥抱，成为我们999天纪念日的特殊回忆。</p>
 <div align="center">
 
-<p><img src="/2019/07/11/wordcloud/pic_1000days.jpg"></p>
+<img src="/2019/07/11/wordcloud/pic_1000days.jpg">
+
 <div align="left">
 
 <p>刚才问了下，今天入职的他已经开始了社畜的加班生涯了，估计没有给我准备礼物（面无表情.jpg）。Anyway，反正可以等他领到工资再好好算账（奸笑.jpg）。</p>
@@ -157,14 +158,16 @@
 <h2 id="用我们的wechat聊天记录——制作词云"><a href="#用我们的wechat聊天记录——制作词云" class="headerlink" title="用我们的wechat聊天记录——制作词云"></a>用我们的wechat聊天记录——制作词云</h2></blockquote>
 <div align="center">
 
-<p><img src="/2019/07/11/wordcloud/love1.jpg"></p>
+<img src="/2019/07/11/wordcloud/love1.jpg">
+
 <div align="left">
 
 <h3 id="原材料"><a href="#原材料" class="headerlink" title="原材料"></a>原材料</h3><p>电脑，微信，导出聊天记录的软件，python及必要的库（maybe加一个，已root手机）</p>
 <h3 id="制作目标"><a href="#制作目标" class="headerlink" title="制作目标"></a>制作目标</h3><p>制作词云，如下图所示</p>
 <div align="center">
 
-<p><img src="/2019/07/11/wordcloud/wordcloud_eg.jpg"></p>
+<img src="/2019/07/11/wordcloud/wordcloud_eg.jpg">
+
 <div align="left">
 
 <h3 id="制作意义"><a href="#制作意义" class="headerlink" title="制作意义"></a>制作意义</h3><ul>
@@ -176,27 +179,31 @@
 <p>如下图，得到的“聊天内容查看页面”、“日期”、“点击隐藏”、“点击展开”等等，就是筛选出来的中文词语。</p>
 <div align="center">
 
-<p><img src="/2019/07/11/wordcloud/procedure1.jpg"></p>
+<img src="/2019/07/11/wordcloud/procedure1.jpg">
+
 <div align="left">
 
 <p>但是jieba主要是针对字符对象进行操作，上述返回的list并不方便。所以，我在这里使用reduce函数，将所有得到的list的内容（就是很多很多中文字符）重新拼接在一起，方便后续利用jieba进行分词。</p>
 <h4 id="Step3-调用jieba进行分词"><a href="#Step3-调用jieba进行分词" class="headerlink" title="Step3 调用jieba进行分词"></a>Step3 调用jieba进行分词</h4><p>jieba库中，lcut用法是在分词后返回一个词语的列表。随之，我们将分词后的list，转化成一个dataframe的形式，这样可以方便稍后的筛选（pd.dataframe进行筛选十分便利）。至于为什么又要筛选捏，因为，像下面“聊天”、“内容”、“查看”、“日期”这种分词后的内容，可是这明显就是聊天记录的模板文字嘛，也就是说这不是聊天内容，不应出现在我的词云里。所以下面一个步骤，就是引入停用词（不想要的词语），将这些词语从dataframe中剔除。</p>
 <div align="center">
 
-<p><img src="/2019/07/11/wordcloud/procedure2.jpg"></p>
+<img src="/2019/07/11/wordcloud/procedure2.jpg">
+
 <div align="left">
 
 <h4 id="Step4-去除停用词"><a href="#Step4-去除停用词" class="headerlink" title="Step4 去除停用词"></a>Step4 去除停用词</h4><p>这个步骤，目标是要去掉一些常见停用词以及其他无意义的词语，比如：的，吗，呢，还有聊天记录文本里昵称、图片、语音提示等等。</p>
 <p>我已经将这些词整理好，放在一个stopword的txt文件里，注意这个自建的txt文件编码不是utf-8了，而是gb18030。将这个文件读入生成一列名为stopword，然后就是要将步骤3的dataframe中包含这些词的行去掉。利用~取反与isin搭配（学到新技巧了！！），筛选出不包含stopword的行。至此，数据清理完成啦，剩下的都是有用的关键词啦，存放在途中words_df_new这个dataframe里。</p>
 <div align="center">
 
-<p><img src="/2019/07/11/wordcloud/procedure3.jpg"></p>
+<img src="/2019/07/11/wordcloud/procedure3.jpg">
+
 <div align="left">
 
 <h4 id="Step5-统计词语出现的频次"><a href="#Step5-统计词语出现的频次" class="headerlink" title="Step5 统计词语出现的频次"></a>Step5 统计词语出现的频次</h4><p>在文本内容清洗过后，这一步进行数据统计，将样本以词语进行分组（groupby），统计每一个词语出现的频次（agg、np.size），然后排序看一下。</p>
 <div align="center">
 
-<p><img src="/2019/07/11/wordcloud/procedure4.jpg"></p>
+<img src="/2019/07/11/wordcloud/procedure4.jpg">
+
 <div align="left">
 
 <h4 id="Step6-调用wordcloud进行作图"><a href="#Step6-调用wordcloud进行作图" class="headerlink" title="Step6 调用wordcloud进行作图"></a>Step6 调用wordcloud进行作图</h4><p>将上面得到的词语与频次数据建成字典，以词语为key，频次为value（下面worldcloud会用到，因为词语的频次决定其在图中显示的大小）。通过上述的步骤，如今，数据已经完全准备好了。</p>
@@ -204,7 +211,8 @@
 <p>最后就是图片的展示啦~</p>
 <div align="center">
 
-<p><img src="/2019/07/11/wordcloud/procedure5.jpg"></p>
+<img src="/2019/07/11/wordcloud/procedure5.jpg">
+
 <div align="left">
 
 
