@@ -11,7 +11,7 @@
 
     <title>
         
-        Joyce的博客 | Joyce&#39;s Blog
+        为爬虫打基础：学习HTML的笔记 - Joyce的博客 | Joyce&#39;s Blog
         
     </title>
 
@@ -53,7 +53,7 @@
     </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li  class=active >
+            <li >
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>主页</span>
@@ -88,6 +88,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#颜色"><span class="toc-text">颜色</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#参考资料"><span class="toc-text">参考资料</span></a></li></ol>
+</div>
+    
 </div>
 
 
@@ -111,58 +115,78 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-preview-container" style="min-height: 576px">
-    
-    <div class="post-preview">
-        <div class="post-time">2019-01-23</div>
-        <div class="post-info">
-            <a href="/2019/01/23/Four-Springs/">
-                <h3>
-                    四个春天：小城风光，柴米油盐，诗情画意
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#电影" title="电影">电影</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2019-01-20</div>
-        <div class="post-info">
-            <a href="/2019/01/20/First-blog-Hello-2019/">
-                <h3>
-                    第一篇文章：辞旧迎新
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#生活" title="生活">生活</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-</div>
-<ul class="pager">
-    
-    <li class="previous">
-        <a href="/page/2/">&larr; Newer Posts</a>
-    </li>
-    
-    
-</ul>
 
+
+<div class="post-container">
+    <div class="post-title">
+        为爬虫打基础：学习HTML的笔记
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2019-11-05 19:25:20</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#编程" title="编程">编程</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p>超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。通常，我们在一个网页上右键，就可以查看网页源代码了。</p>
+<p>为了学爬虫，今天来学习怎么写一个网页。</p>
+<ul>
+<li>HTML文档的后缀名：.html或者.htm，都可以</li>
+<li>!DOCTYPE html 声明为 HTML5 文档</li>
+<li>html 元素是 HTML 页面的根元素</li>
+<li>head 元素包含了文档的元（meta）数据，如 meta charset=”utf-8” 定义网页编码格式为 utf-8。</li>
+<li>title 元素描述了文档的标题</li>
+<li>body 元素包含了可见的页面内容</li>
+<li>h1 元素定义一个大标题</li>
+<li>p 元素定义一个段落</li>
+</ul>
+<p>这是一个例子。通常，HTML标签是成对出现的，标签对中的第一个标签是开始标签，第二个标签是结束标签。</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Hello, 我的第一个网页&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;h1&gt;这是一个一级标题&lt;/h1&gt;
+    &lt;hr&gt;
+    &lt;h2&gt;这是一个二级标题&lt;/h2&gt;
+    &lt;hr&gt;
+    &lt;p&gt;这是一个段落&lt;/p&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre><div align="center">
+<img src="/2019/11/05/Learn-HTML/structure.jpg" width="80%" height="80%">
+<div align="left">
+
+
+
+<h4 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h4><p><a href="https://www.runoob.com/html/html-colornames.html" target="_blank" rel="noopener">参考网址：颜色</a></p>
+<h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><p>后续还有添加音频、视频之类的。</p>
+<p><a href="https://www.runoob.com/html/html-tutorial.html" target="_blank" rel="noopener">菜鸟教程</a></p>
+</div></div>
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
     </div>
 </div>
 
@@ -220,12 +244,31 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.json"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        if( '' || '')
+        var disqus_config = function () {
+            this.page.url = '';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://airclouds-blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
 
 
 
