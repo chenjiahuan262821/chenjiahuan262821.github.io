@@ -1,6 +1,6 @@
 ---
 title: 保险观察：中国保险行业长期投资价值研究
-date: 2019-01-28 23:40:52
+date: 2020-01-28 23:40:52
 tags: 金融观察
 ---
 
@@ -15,9 +15,9 @@ tags: 金融观察
 
 ---
 
-# 一、与海外对比，中国保险行业的增长空间依然巨大
+## 一、与海外对比，中国保险行业的增长空间依然巨大
 
-## 1. 保障缺口大、人均持有保单数量低，中国保险潜在需求空间巨大
+### 1. 保障缺口大、人均持有保单数量低，中国保险潜在需求空间巨大
 
 **与海外市场对比，中国寿险市场仍处于发展初期，和海外市场差距明显。**
 
@@ -28,15 +28,16 @@ tags: 金融观察
 从保障缺口和人均持有保单数量来看，目前我国保险行业发展程度在世界上处于较低水准，保险市场依旧有很大的提升空间。未来随着城镇人均居民收入水平的提升及人口老龄化的趋势延续，保险将会越来越成为一种刚性需求。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p1.jpg)
-![](./insurance-long-term-investment-value/p2.jpg)
+<img src="insurance-long-term-investment-value/p1.jpg">
+<img src="insurance-long-term-investment-value/p2.jpg">
+
 <div align=left>
 
 *备注1. 寿险保障缺口 = 在工作的家庭成员去世后所需资源与家属可用来维持其生活水平的现有资源之间的差额。*
 
-*备注2. 健康险保障缺口 = 造成财务压力的自费医疗支出+因支付能力有限而未治疗的费用估值，其中造成财务压力是指人们不得不：1)削减可支配支出(例如，购买更便宜的日 常用品、减少奢侈品消费)；2)减少储蓄；3)向银行/家人/朋友借钱；4)削减必需品开 销(例如，学费、日常用品、水电费支出等)。*
+*备注2. 健康险保障缺口 = 造成财务压力的自费医疗支出+因支付能力有限而未治疗的费用估值，其中造成财务压力是指人们不得不：1)削减可支配支出(例如，购买更便宜的日 常用品、减少奢侈品消费)；2)减少储蓄；3)向银行/家人/朋友借钱；4)削减必需品开销(例如，学费、日常用品、水电费支出等)。*
 
-## 2. 中国保险业个税优惠缺失，政策调整带来的潜在保费增量巨大
+### 2. 中国保险业个税优惠缺失，政策调整带来的潜在保费增量巨大
 
 **当前中国养老金和健康险保费基本无实质性的个税优惠。预计中国相关的税收政策未来大概率会有调整，这将触发养老金和健康险市场的真正爆发。**
 
@@ -45,16 +46,16 @@ tags: 金融观察
 当下我国养老保险体系有三大支柱，一是政府承担的基本养老保险，二是企业年金、职业年金，三是个人商业保险。截至2018年，我国基本养老保险费占比达90%，第二、第三支柱保费占比仅合计10%。对比发达国家通行的养老保障体系，政府承担的社会基本养老保险占比往往远低于企业年金、职业年金和个人商业保险占比。倘若能加大税延养老保险优惠力度，可以加快发展商业养老保险，增加养老资产、改善养老金体系存在的结构失衡、缓解基本养老保险的可持续压力以及弥补企业年金发展的不足，推进养老保障体系向“三大支柱”支撑协调迈进。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p3.jpg)
+<img src="insurance-long-term-investment-value/p3.jpg" width="110%" height="110%">
 <div align=left>
 
 **在任何国家，个税优惠政策永远是保险行业和养老储蓄规模最主要的驱动力。**例如，美国在1970年代相继立法推出了享受个险递延优惠的401K和IRA计划，直接驱动了美国的养老储蓄市场开始快速增长。如果中国给予类似美国的个税优惠额度（RMB20000元/年），则养老储蓄市场每年的增量资金为1.5-2万亿元/年，规模接近目前正过寿险行业的保费。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p4.jpg)
+<img src="insurance-long-term-investment-value/p4.jpg">
 <div align=left>
 
-## 3. 中国健康险市场目前以重疾险为主，预计报销行医疗险未来有带来巨大增量
+### 3. 中国健康险市场目前以重疾险为主，预计报销行医疗险未来有带来巨大增量
 
 **中美不同的医疗体系和保障制度设计导致了健康险行业形态的巨大差异，中国健康险以重疾险为主，美国健康险以报销型医疗险为主。在中国健康险市场里，报销型医疗险将在重疾险增长放缓后带来巨大增量**
 
@@ -63,7 +64,7 @@ tags: 金融观察
 - 美国医疗资源提供方以私立机构为主，价格很高，但是由于主要支付方为保险公司而不是政府（政府只给弱势群体和老年人提供基本医疗保障），保险公司具备很强的控费能力，可以实现承保盈利。美国医疗保障体系以商业保险为主（政府会补贴保险公司，亦对商业保险的费率和承保有限制），因此以报销型医疗险为主的商业健康险规模巨大。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p5.jpg)
+<img src="insurance-long-term-investment-value/p5.jpg">
 <div align=left>
 
 中国的健康险目前主要是重疾险（占比70%以上），报销型医疗险发展缓慢，这与发达国家市场正好相反（报销型医疗险为主流产品，重疾险是非主流产品）。这一现状主要是中国社保体系基本设计思路、代理人的销售能力、客户的偏好共同决定的。
@@ -73,24 +74,25 @@ tags: 金融观察
 2018年中国健康险保费约为5400亿元，其中，保险型医疗险约为1000-5000亿元，其余为重疾险。在考虑了重疾险对需求的挤占后，我们静态测算中国报销型医疗险的市场空间在5000-7000亿元/年，约为目前寿险行业保费的25%-35%。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p6.jpg)
+<img src="insurance-long-term-investment-value/p6.jpg">
 <div align=left>
 
 
-## 4. 被银行理财产品挤占市场的长期储蓄类保单，在政策利好下预期释放潜力
+### 4. 被银行理财产品挤占市场的长期储蓄类保单，在政策利好下预期释放潜力
 
 **相比于银行理财产品，中国储蓄类保单收益率并无明显优势且期限过长，导致被银行理财产品间接挤占了市场。**中国特色的银行理财产品隐形刚兑，收益率较高且期限较短（以3-6个月为主）。而中国的储蓄类保单虽有明确刚兑，但是收益率并无明显优势（3%-4%）且期限过长（5年以上返本），相对于银行理财完全无吸引力。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p7.jpg)
+<img src="insurance-long-term-investment-value/p7.jpg">
 <div align=left>
 
 相比之下，发达国家几乎没有类似于中国银行理财的零售金融产品，居民的长期储蓄和理财需求大部分由税优养老金账户和储蓄类保单所吸收。与发达国家比较，中国保险和养老金仅占居民金融资产的6%（2016年），而美国30%（2018年）、日本28%（2017年）。由此可见，中国储蓄类保险市场并未发展充分。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p8.jpg)
-
-![](./insurance-long-term-investment-value/p9.jpg)
+<img src="insurance-long-term-investment-value/p8.jpg" width="110%" height="110%">
+<div align=left>
+<div align=center>
+<img src="insurance-long-term-investment-value/p9.jpg">
 <div align=left>
 
 **寿险产品和银行理财监管要求的变化时常带来中周期的干扰。**中国储蓄类保单的需求主要取决于寿险和银行理财面对的监管要求的边际变化，这些变化在中周期直接影响保险行业保费的增速。
@@ -100,17 +102,17 @@ tags: 金融观察
 + 2018年的资管新规（禁止期限错配将打破刚兑）加强了对银行理财的限制，客观上有利于储蓄类保单的需求的恢复，但是至今还没有严格执行。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p10.jpg)
+<img src="insurance-long-term-investment-value/p10.jpg">
 <div align=left>
 
 
 
-## 5. 以自有代理人渠道作为主导地位，有利于促进市场规模增长
+### 5. 以自有代理人渠道作为主导地位，有利于促进市场规模增长
 
 **中国保险目前的发展阶段决定了代理人仍将是最重要的渠道。**在多数发达市场，独立中介和银保渠道是主导渠道。而在中国，自有代理人渠道占据绝对主导地位，行业个险渠道新业务价值占比处于较高水平（代理人渠道NBV占比近90%）。我们认为在未来10年自有代理人渠道的主导地位不会改变。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p11.jpg)
+<img src="insurance-long-term-investment-value/p11.jpg">
 <div align=left>
 
 - 当前中国寿险公司普遍采用金字塔型的代理人结构，即更高层级的代理人管理多个较低层级的代理人，并且层级数量较多。金字塔型的结构构建了严密且庞大的销售体系，有利于通过不断激励增援和淘汰最底层的代理人来指数式增长接触到潜在客户的机会。
@@ -119,37 +121,40 @@ tags: 金融观察
 
 
 
-# 二、 保险股的投资收益来源，依次是EV滚动增长、股市beta、企业分红
+## 二、 保险股的投资收益来源，依次是EV滚动增长、股市beta、企业分红
 
 基于保险股的PEV估值方法，P=EV*（P/EV）。考虑到分红在股票估值过程中会起到作用，将持有股票的受益拆分为EV滚动增长、企业分红、企业估值（P/EV），其中估值P/EV可进一步拆分为股市因素（大盘）和企业自身因素（其他）。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p12.jpg)
-
-![](./insurance-long-term-investment-value/p13.jpg)
+<img src="insurance-long-term-investment-value/p12.jpg" width="110%" height="110%">
+<div align=left>
+<div align=center>
+<img src="insurance-long-term-investment-value/p13.jpg" width="110%" height="110%">
 <div align=left>
 
-## 收益来源1：内含价值的滚动增长
+### 收益来源1：内含价值的滚动增长
 
 **内含价值每年的滚动增长一直是持有保险股收益的最主要的驱动因素。**尽管在12个月内维度，股价经常与当年内含价值增长背离，但是在36个月以上的时间周期，股价和内涵价值增长的趋势十分一致。2010年至今H/A各公司平均内含价值累计增长159%/171%，其股价累计增长73%/114%。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p14.jpg)
-
-![](./insurance-long-term-investment-value/p15.jpg)
+<img src="insurance-long-term-investment-value/p14.jpg">
+<div align=left>
+<div align=center>
+<img src="insurance-long-term-investment-value/p15.jpg">
 <div align=left>
 
-## 收益来源2：A股市场带来的beta
+### 收益来源2：A股市场带来的beta
 
 **由于保险公司投资的股票资产在体量上相当于净资产，保险公司具有高beta特性。**在A股整体有较大上涨的年份，投资保险股可赚取高额的相对收益。如2014年上证指数上涨53%，A股保险公司相对指数平均收益为49%。（在A股有较大下跌的年份，投资保险股的收益也不容乐观，这表明保险股的防御性十分有限。）因此，高beta特性使得投资保险股的收益会显著受到股市表现的影响。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p16.jpg)
-
-![](./insurance-long-term-investment-value/p17.jpg)
+<img src="insurance-long-term-investment-value/p16.jpg">
+<div align=left>
+<div align=center>
+<img src="insurance-long-term-investment-value/p17.jpg" width="110%" height="110%">
 <div align=left>
 
-## 收益来源3：企业分红
+### 收益来源3：企业分红
 
 **2009年以来，H/A保险股分红贡献的回报累计为20%/23%，且近年来持续提升，分红的重要性将越来越高。**
 
@@ -160,6 +165,6 @@ tags: 金融观察
 + 由于增长放缓，P/EV扩张空间有限，因此分红收益在投资收益中的影响力相对提升。
 
 <div align=center>
-![](./insurance-long-term-investment-value/p18.jpg)
+<img src="insurance-long-term-investment-value/p18.jpg">
 
 <div align=left>
