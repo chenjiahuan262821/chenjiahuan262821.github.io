@@ -46,7 +46,7 @@ tags: 金融观察
 当下我国养老保险体系有三大支柱，一是政府承担的基本养老保险，二是企业年金、职业年金，三是个人商业保险。截至2018年，我国基本养老保险费占比达90%，第二、第三支柱保费占比仅合计10%。对比发达国家通行的养老保障体系，政府承担的社会基本养老保险占比往往远低于企业年金、职业年金和个人商业保险占比。倘若能加大税延养老保险优惠力度，可以加快发展商业养老保险，增加养老资产、改善养老金体系存在的结构失衡、缓解基本养老保险的可持续压力以及弥补企业年金发展的不足，推进养老保障体系向“三大支柱”支撑协调迈进。
 
 <div align=center>
-<img src="insurance-long-term-investment-value/p3.jpg" width="110%" height="110%">
+<img src="insurance-long-term-investment-value/p3.jpg" width="100%" height="100%">
 <div align=left>
 
 **在任何国家，个税优惠政策永远是保险行业和养老储蓄规模最主要的驱动力。**例如，美国在1970年代相继立法推出了享受个险递延优惠的401K和IRA计划，直接驱动了美国的养老储蓄市场开始快速增长。如果中国给予类似美国的个税优惠额度（RMB20000元/年），则养老储蓄市场每年的增量资金为1.5-2万亿元/年，规模接近目前正过寿险行业的保费。
@@ -89,7 +89,7 @@ tags: 金融观察
 相比之下，发达国家几乎没有类似于中国银行理财的零售金融产品，居民的长期储蓄和理财需求大部分由税优养老金账户和储蓄类保单所吸收。与发达国家比较，中国保险和养老金仅占居民金融资产的6%（2016年），而美国30%（2018年）、日本28%（2017年）。由此可见，中国储蓄类保险市场并未发展充分。
 
 <div align=center>
-<img src="insurance-long-term-investment-value/p8.jpg" width="110%" height="110%">
+<img src="insurance-long-term-investment-value/p8.jpg" width="100%" height="100%">
 <div align=left>
 <div align=center>
 <img src="insurance-long-term-investment-value/p9.jpg">
@@ -126,10 +126,10 @@ tags: 金融观察
 基于保险股的PEV估值方法，P=EV*（P/EV）。考虑到分红在股票估值过程中会起到作用，将持有股票的受益拆分为EV滚动增长、企业分红、企业估值（P/EV），其中估值P/EV可进一步拆分为股市因素（大盘）和企业自身因素（其他）。
 
 <div align=center>
-<img src="insurance-long-term-investment-value/p12.jpg" width="110%" height="110%">
+<img src="insurance-long-term-investment-value/p12.jpg" width="100%" height="100%">
 <div align=left>
 <div align=center>
-<img src="insurance-long-term-investment-value/p13.jpg" width="110%" height="110%">
+<img src="insurance-long-term-investment-value/p13.jpg" width="100%" height="100%">
 <div align=left>
 
 ### 收益来源1：内含价值的滚动增长
@@ -151,7 +151,7 @@ tags: 金融观察
 <img src="insurance-long-term-investment-value/p16.jpg">
 <div align=left>
 <div align=center>
-<img src="insurance-long-term-investment-value/p17.jpg" width="110%" height="110%">
+<img src="insurance-long-term-investment-value/p17.jpg" width="100%" height="100%">
 <div align=left>
 
 ### 收益来源3：企业分红
@@ -167,4 +167,143 @@ tags: 金融观察
 <div align=center>
 <img src="insurance-long-term-investment-value/p18.jpg">
 
+<img src="insurance-long-term-investment-value/p19.jpg" width="100%" height="100%">
+
 <div align=left>
+
+## 三、 从绝对估值和相对估值分析，保险行业长期估值中枢下行空间有限
+
+### 1. 绝对估值：保险股当前估值已包含悲观假设和悲观预期
+
+**从绝对估值角度来看，当前估值已经隐含较为极端的悲观假设。**即使考虑是所有的内含价值和新业务价值计算中的水分，包括投资收益率假设过高、发病率假设不足、资本计提不足、非标违约，A股保险股（平安除外）的合理估值也应高于当前平均0.9xP/EV；H股中资保险股的合理估值也大幅高于当前股价（平安H股除外）。
+
+当下，A股保险企业的平均PEV为0.83，平安A股1.09 、国寿A股0.86 、太保A股0.74 、新华A股0.64；H股保险企业的平均PEV为0.76，友邦一枝独秀1.83、平安H股1.02、国寿H股0.45、太保H股0.52、新华H股0.38、太平0.35。综上，A股和H股的PEV在0.8的水平，其中只有友邦、平安A/H的PEV能高于1.0的水平。从绝对估值角度来看，当前保险股的价格很可能是被低估了。
+
+<div align=center>
+<img src="insurance-long-term-investment-value/p20.jpg">
+<div align=left>
+
+**从市场预期角度来看，“利率下行+增长放缓”的悲观预期已经大部分被定价。**过去10年保险股历史估值中枢不断下移，主要由于：1）保险行业的高成长预期向下调整；2）对于未来长端利率下行的担忧。由于18年至今，新单保费持续疲弱+利率波动下行，这两个变量目前已经大部分被市场定价，额外边际影响很有限。因此，当前价格已经包含了悲观的预期。
+
+<div align=center>
+<img src="insurance-long-term-investment-value/p21.jpg">
+
+<img src="insurance-long-term-investment-value/p22.jpg">
+<div align=left>
+
+### 2. 相对估值：相对海外保险和A股其他板块，保险股下行空间也有限
+
+从相对估值角度来看，保险股下行空间也有限。
+
++ 相对于海外保险公司，中国保险公司的绝对估值水平已经不高；
++ 相比于A股其他板块，保险股的估值（P/B或P/E）并不高。
+
+<div align=center>
+<img src="insurance-long-term-investment-value/p23.jpg">
+
+<img src="insurance-long-term-investment-value/p24.jpg">
+<div align=left>
+
+
+## 四、 估值框架变迁，以营运利润为估值基础将利好保险股价值重估，推荐中国平安和友邦
+
+### 1. 寿险市场高速增长期结束，内含价值估值基础（P/EV）有局限性
+
+**寿险市场高速增长期的结束将带来估值方法的变化。**一方面，近年来中国寿险市场总保费增速放缓，接近成熟市场水平。另一方面，2017年以来中国主要上市保险公司（以平安为例）的产品结构开始稳定。这表明，中国寿险市场的发展正从高速发展期转向成熟期。而近年来，中国上市寿险公司分红率有所提升，但相对成熟市场仍有提升空间。
+
+我们将中国寿险市场的发展分为两个阶段，这两个阶段将分别对应不同的估值方法：
+
++ 高速发展期（第一阶段）：保费规模高速扩张、业务结构剧烈变化、股东分红比例很低。市场关注未来成长空间（未来新业务价值），因此以内含价值为估值基础，分红对估值影响有限。
++ 成熟期（第二阶段）：保费规模低增长或无增长、业务结构较为稳定、股东分红比例较高。市场关注公司的盈利，因此以营运利润/净利润为估值基础，同时由于关注稳定现金收益的投资者比例提升，分红的重要性大幅提升。
+
+<div align=center>
+<img src="insurance-long-term-investment-value/p30.jpg">
+
+<img src="insurance-long-term-investment-value/p32.jpg">
+
+<img src="insurance-long-term-investment-value/p31.jpg">
+<div align=left>
+
+**在寿险市场的成熟期，内含价值估值基础（P/EV）有局限性。**在寿险市场的成熟期，股东更注重存量业务的盈利能力和分红，而内含价值在这方面有局限性：
+
++ 内含价值/新业务价值只能体现未来数年盈利折现到现在总和，无法体现每年公司的盈利；
++ 内含价值无法直接体现公司在过去一年的运营效率（是否有正的运营偏差），只能在内含价值的变动分析中间接体现；
++ 内含价值/新业务价值体系无法提供一个稳定性高且可预测的指标，用以和股东分红挂钩，限制了对于注重分红的投资者的估值参考意义。
+
+### 2. 中国寿险市场进入成熟期，估值体系变化，盈利和分红重要性将持续提升
+
+**中国寿险市场进入成熟期，估值体系将发生变化，盈利和分红重要性将持续提升。**
+
+在市场高速成长期，以平安为例，剩余边际摊销（盈利的指标之一）增速的变化显著滞后于新业务价值的增长；另外，在市场高速成长期即使存量剩余边际相同，不同的业务结构就会使一家公司营运利润的产生节奏大不相同，因此以内含价值作为估值基础要比用盈利作为估值基础更为合理。
+
+动态来看，随着中国寿险市场进入成熟期，当新业务价值增速逐渐稳定，其与营运利润增速的相关性也将更高，因此采取盈利作为估值基础具有合理性。过往以内含价值/新业务（体现未来远期的现金流和成长性）为基础的估值体系将随之发生变化，盈利和分红（现金收益）在估值体系中重要性将持续提升。以友邦为例，营运利润直接决定了分红。随着估值体系更加关注利润/营运利润，中国寿险公司的高盈利能力将会更好的被市场定价（内含价值估值基础带来的估值折价逐渐消除），同时分红水平的提升也将有利于保险股估值提升。以友邦为例，营运利润直接决定了分红。
+
+
+<div align=center>
+<img src="insurance-long-term-investment-value/p36.jpg">
+
+<img src="insurance-long-term-investment-value/p25.jpg">
+
+<img src="insurance-long-term-investment-value/p26.jpg">
+
+<img src="insurance-long-term-investment-value/p37.jpg">
+<div align=left>
+
+当以运营利润为估值基础后，保险股的估值将会发生以下变化：
+
+- **促进折价的消除。**营运利润本质上是利润，因此更易于投资者理解，我们认为这将有助于消除长期以来保险股由于业务模式复杂以及内含价值体系的不透明所导致的估值折价。
+- **增强横向可比性。**这将推动保险股估值与非金融行业具备横向可比性。寿险公司的高盈利性将被反映到股价，从而提高现有估值水平（目前中国保险公司P/E或P/OPAT长期显著低于平均水平）。
+- **提升分红预期的影响力。**随着分红对于保险股的投资的重要性大幅提升，估值将更加直接反映分红预期的边际变化。
+
+
+<div align=center>
+<img src="insurance-long-term-investment-value/p23.jpg">
+
+<img src="insurance-long-term-investment-value/p27.jpg">
+
+<div align=left>
+
+**分红水平或成为辅助的估值指标。**分红水平的提升将有效提升估值水平：
+
+- 投资保险股的日常现金流回报提升，可吸引更多关注现金流回报的长期投资者。
+- 现金分红可以提升寿险公司财务指标和资产负债表的可信度。
+- P/EV<1，现金分红对估值有直接提振作用。
+
+<div align=center>
+<img src="insurance-long-term-investment-value/p28.jpg">
+
+<img src="insurance-long-term-investment-value/p29.jpg">
+
+<div align=left>
+
+**中英分红对比，较高的分红使投资的获利方式更加清晰。**以英国寿险公司为例，较高的现金分红率支撑估值水平。较高的分红使投资的获利方式更加清晰：2017-19年，投资H股上市中国寿险公司的收益仅12%来自于分红，而英国上市寿险公司的公司的数字则为86%。
+
+<div align=center>
+<img src="insurance-long-term-investment-value/p33.jpg">
+
+<img src="insurance-long-term-investment-value/p34.jpg">
+
+<img src="insurance-long-term-investment-value/p35.jpg">
+<div align=left>
+
+### 3. 未来看好中国平安和友邦的估值
+
+**未来看好中国平安和友邦的估值。**未来估值的驱动因素将与现在不同，除了传统的盈利能力指标之外（ROEV、新业务价值增速、ROE），具备以下特质的保险公司将有估值溢价：
+
++ 内含价值/盈利的长期增速；
++ 内含价值/新业务价值转化为盈利的路径清晰；
++ 盈利转化为分红的路径清晰（基于营运利润或其他稳定可预测指标的分红政策）；
++ 分红水平（现金分红/内含价值回报）高于同业；
++ 公司治理风险小；
++ 资产负债表久期错配缺口小，具有抵御长端利率下行能力。
+
+依据上述特质，构建选股策略核心指标，未来3年推荐：平安-H/A、友邦、中国财险。其中，中国平安和友邦的PEV目前已经领先其他中国公司了。
+
+<div align=center>
+<img src="insurance-long-term-investment-value/p38.jpg">
+
+<img src="insurance-long-term-investment-value/p39.jpg">
+
+<img src="insurance-long-term-investment-value/p40.jpg">
+<div align=left>
+
